@@ -1,4 +1,4 @@
-name: Rain Alert
+name: Daily Weather Forecast
 
 on:
   workflow_dispatch:
