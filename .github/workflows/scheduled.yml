@@ -1,10 +1,9 @@
 name: Rain Alert
 
 on:
-  workflow_dispatch:
   schedule:
     # Taeglich um 10:20 UTC (11:20/12:20 Berlin, je nach Sommerzeit)
-    - cron: "20 10 * * *"
+    - cron: "45 09 * * *"
 
 jobs:
   run:
