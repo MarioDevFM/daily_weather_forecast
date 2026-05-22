@@ -3,8 +3,7 @@ name: Daily Weather Forecast
 on:
   workflow_dispatch:
   schedule:
-    # Taeglich um 07:00 UTC (08:00/09:00 Berlin, je nach Sommerzeit)
-    - cron: "15 10 * * *"
+    - cron: "45 8  * * *"
 
 jobs:
   run:
