@@ -2,8 +2,7 @@ name: Rain Alert
 
 on:
   schedule:
-    # Taeglich um 10:20 UTC (11:20/12:20 Berlin, je nach Sommerzeit)
-    - cron: "45 09 * * *"
+    - cron: "45 00 * * *"
 
 jobs:
   run:
